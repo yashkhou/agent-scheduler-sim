@@ -34,3 +34,12 @@ python -m unittest discover -s tests -v
 ```
 
 MIT licensed.
+
+
+## v0.1.1
+
+**Policy comparison, deadlines and retry economics.** The simulator now compares FIFO vs priority scheduling and reports deadline misses, queue percentiles, worker busy time, and accumulated exponential retry delay.
+
+```bash
+PYTHONPATH=src python -m unittest discover -s tests -v
+```
