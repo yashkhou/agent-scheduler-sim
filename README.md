@@ -1,3 +1,9 @@
+> [!IMPORTANT]
+> **This project now lives in [agent-reliability-lab](https://github.com/yashkhou/agent-reliability-lab/tree/main/packages/agent-scheduler-sim).** Its full history was moved there and this repository is archived.
+>
+> `pip install "git+https://github.com/yashkhou/agent-reliability-lab#subdirectory=packages/agent-scheduler-sim"`
+
+
 # agent-scheduler-sim
 
 A deterministic discrete-event simulator for multi-agent queues, constrained workers, retries and exponential backoff.
